@@ -17,7 +17,7 @@
   --clr-light2-accent: #EDC7B7;
   --clr-grey2: #BAB2B5;
   /* heading colors */
-  --fs-h1: 2.9rem;
+  --fs-h1: 2.6rem;
   --fs-h2: 2.25rem;
   --fs-h3: 1.25rem;
   --fs-body: 1rem;
@@ -110,6 +110,7 @@ h3 {
 
 .section__title {
   margin-bottom: .25em;
+  text-transform: uppercase;
 }
 
 .section__title--intro {
