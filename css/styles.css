@@ -6,6 +6,7 @@
   --ff-primary: 'Source Sans Pro', sans-serif;
   --ff-secondary: 'Source Code Pro', monospace;
   --fw-reg: 300;
+  --fw-less-bold: 500;
   --fw-bold: 900;
   --clr-light: #fff;
   --clr-dark: #303030;
@@ -308,10 +309,15 @@ header {
   text-align: center;
 }
 
-.my-services h3, .my-services p, .my-services h2 {
+.my-services p, .my-services h3 {
   color: var(--clr-light2);
   font-weight: bold;
   position: relative;
+}
+
+.my-services h2 {
+  font-weight: var(--fw-less-bold);
+  color: var(--clr-light2);
 }
 
 .my-services p, .my-services h3 {
@@ -323,7 +329,7 @@ header {
   content: "";
   background-image: url(../img2/coding-1853305_1280.jpg);
   background-size: cover;
-  left: 0;
+  left: -24em;
   right: 0;
   top: 0;
   bottom: 0;
@@ -526,15 +532,30 @@ header {
 }
 
 .section__title--about {
-  font-weight: 200;
+  font-weight: var(--fw-less-bold);
   letter-spacing: .4em;
 }
 
 .section__title--about::after {
   content: '';
+  margin-top: .3em;
+  margin-bottom: .6em;
   display: block;
   width: 100%;
   height: 1px;
   background-color: var(--clr-dark);
   opacity: 0.5;
+}
+
+.section__title--work {
+  font-weight: var(--fw-less-bold);
+}
+
+.section__title--services, .section__title {
+  font-weight: var(--fw-less-bold);
+  font-weight: 300;
+}
+
+.intro__img, .about-me__img {
+  border-radius: .3em;
 }
