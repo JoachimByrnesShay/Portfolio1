@@ -325,11 +325,15 @@ header {
   opacity: 0.9;
 }
 
+.my-services p {
+  margin-bottom: 3em;
+}
+
 .my-services::after {
   content: "";
   background-image: url(../img2/coding-1853305_1280.jpg);
   background-size: cover;
-  left: -24em;
+  left: -34em;
   right: 0;
   top: 0;
   bottom: 0;
