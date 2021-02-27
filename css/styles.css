@@ -520,3 +520,21 @@ header {
 .hamburger {
   z-index: 150;
 }
+/* CURRENTLY TESTING */
+
+.section__title--about {
+}
+
+.section__title--about {
+  font-weight: 200;
+  letter-spacing: .4em;
+}
+
+.section__title--about::after {
+  content: '';
+  display: block;
+  width: 100%;
+  height: 1px;
+  background-color: var(--clr-dark);
+  opacity: 0.5;
+}
